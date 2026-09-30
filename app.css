@@ -1,30 +1,242 @@
-.App {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
+import { StyleSheet } from "react-native";
 
-header {
-  margin-bottom: 20px;
-}
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#FFFFFF",
+  },
 
-.menu-item {
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-}
+  center: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
 
-form {
-  margin-top: 20px;
-}
+  onboarding: {
+    flexGrow: 1,
+    padding: 25,
+    justifyContent: "center",
+    backgroundColor: "#FFFFFF",
+  },
 
-label {
-  display: block;
-  margin-bottom: 10px;
-}
+  profile: {
+    flexGrow: 1,
+    padding: 25,
+    backgroundColor: "#FFFFFF",
+  },
 
-button {
-  margin-top: 10px;
-  padding: 8px 12px;
-  background-color: #f4b400;
-  border: none;
-  cursor: pointer;
-}
+  logo: {
+    fontSize: 30,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 30,
+  },
+
+  title: {
+    fontSize: 25,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+
+  subtitle: {
+    fontSize: 17,
+    color: "#666666",
+    marginBottom: 25,
+  },
+
+  label: {
+    fontSize: 16,
+    fontWeight: "bold",
+    marginTop: 12,
+    marginBottom: 7,
+  },
+
+  input: {
+    borderWidth: 1,
+    borderColor: "#BBBBBB",
+    borderRadius: 8,
+    padding: 13,
+    fontSize: 16,
+    backgroundColor: "#FFFFFF",
+  },
+
+  button: {
+    backgroundColor: "#495E57",
+    padding: 15,
+    borderRadius: 8,
+    alignItems: "center",
+    marginTop: 25,
+  },
+
+  disabledButton: {
+    backgroundColor: "#AAAAAA",
+  },
+
+  buttonText: {
+    color: "#FFFFFF",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: 18,
+  },
+
+  headerLogo: {
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+
+  profileIcon: {
+    fontSize: 30,
+  },
+
+  hero: {
+    backgroundColor: "#495E57",
+    marginHorizontal: 15,
+    padding: 22,
+    borderRadius: 12,
+  },
+
+  heroTitle: {
+    fontSize: 30,
+    fontWeight: "bold",
+    color: "#F4CE14",
+    marginBottom: 10,
+  },
+
+  heroText: {
+    color: "#FFFFFF",
+    fontSize: 15,
+    lineHeight: 22,
+  },
+
+  search: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 8,
+    padding: 12,
+    marginTop: 18,
+  },
+
+  sectionTitle: {
+    fontSize: 22,
+    fontWeight: "bold",
+    marginTop: 20,
+    marginBottom: 10,
+    marginHorizontal: 15,
+  },
+
+  categoryList: {
+    paddingLeft: 15,
+  },
+
+  categoryButton: {
+    backgroundColor: "#EEEEEE",
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    borderRadius: 20,
+    marginRight: 8,
+  },
+
+  selectedCategory: {
+    backgroundColor: "#495E57",
+  },
+
+  categoryText: {
+    fontWeight: "bold",
+  },
+
+  selectedCategoryText: {
+    color: "#FFFFFF",
+  },
+
+  list: {
+    paddingBottom: 30,
+  },
+
+  menuItem: {
+    flexDirection: "row",
+    marginHorizontal: 15,
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: "#DDDDDD",
+  },
+
+  menuInfo: {
+    flex: 1,
+    paddingRight: 10,
+  },
+
+  menuName: {
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+
+  menuDescription: {
+    color: "#666666",
+    marginTop: 5,
+  },
+
+  price: {
+    fontWeight: "bold",
+    marginTop: 7,
+  },
+
+  foodImage: {
+    width: 80,
+    height: 80,
+    backgroundColor: "#EEEEEE",
+    borderRadius: 8,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  foodEmoji: {
+    fontSize: 32,
+  },
+
+  empty: {
+    textAlign: "center",
+    marginTop: 30,
+  },
+
+  avatar: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: "#EEEEEE",
+    alignSelf: "center",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 20,
+  },
+
+  avatarText: {
+    fontSize: 45,
+  },
+
+  profileTitle: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 15,
+  },
+
+  logoutButton: {
+    padding: 15,
+    borderWidth: 1,
+    borderColor: "#CC0000",
+    borderRadius: 8,
+    alignItems: "center",
+    marginTop: 15,
+  },
+
+  logoutText: {
+    color: "#CC0000",
+    fontWeight: "bold",
+  },
+});
+
+export default styles;
